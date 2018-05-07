@@ -1,6 +1,8 @@
 ## 0.8.4 (Unreleased)
 
 IMPROVEMENTS:
+ * cli: Add node drain monitoring with new `-monitor` flag on node drain
+   command [[GH-4260](https://github.com/hashicorp/nomad/issues/4260)]
  * cli: Add node drain details to node status [[GH-4247](https://github.com/hashicorp/nomad/issues/4247)]
  * command: Add -short option to init command that emits a minimal
    jobspec [[GH-4239](https://github.com/hashicorp/nomad/issues/4239)]
